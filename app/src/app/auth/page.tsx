@@ -42,6 +42,7 @@ export default function AuthPage() {
 
       // Armazenar dados do usuário localmente
       localStorage.setItem("user", JSON.stringify(data));
+      document.cookie = `user=${data.accessToken}; path=/; max-age=1800`;
 
       // Redirecionar para o dashboard
       router.push("/dashboard");
