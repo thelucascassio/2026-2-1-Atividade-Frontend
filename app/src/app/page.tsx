@@ -9,7 +9,7 @@ export default function Home() {
           Atividade avaliativa — Frontend Web 2026 - Programação Orientada a Serviços
         </p>
         
-        <a href="/login"
+        <a href="/auth"
           className="flex h-12 items-center justify-center gap-2 rounded-full bg-foreground px-8 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc]">
           Ir para o Login
         </a>
